@@ -6,13 +6,13 @@
 
 ###  About Me
 -  Building **ALKEM1 AGI** – privacy-focused, offline-first AGI architecture.
-- ⚖ Creator of **AGNOS LEX** – legal AI system with multi-agent RAG.
+-  Creator of **AGNOS LEX** – legal AI system with multi-agent RAG.
 -  Industrial designer & motion graphics artist (Cinema 4D, Redshift, Houdini).
-- 🛠Passionate about AI, philosophy, quantum physics & advanced system design.
+-  Passionate about AI, philosophy, quantum physics & advanced system design.
 
 ---
 
-### 🛠 Tech Stack
+###  Tech Stack
 <p>
   <img src="https://skillicons.dev/icons?i=python,fastapi,docker,git,github,react,tailwind,js,nodejs,redis,elasticsearch" />
   <img src="https://skillicons.dev/icons?i=cpp,linux,vscode,postman,figma,blender" />
