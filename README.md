@@ -1,12 +1,12 @@
 <!-- Introduction -->
 <h1 align="center"> Hi, I'm Aleksandar Stefanović</h1>
-<h3 align="center">Founder of ALKEM1 – Building Offline, Modular AGI Systems</h3>
+<h3 align="center">Founder of ALKEM1 – Building Offline, Modular AG1 Systems</h3>
 
 ---
 
 ###  About Me
--  Building **ALKEM1 AGI** – privacy-focused, offline-first AGI architecture.
--  Creator of **AGNOS LEX** – legal AI system with multi-agent RAG.
+-  Building **ALKEM1 AG1** – privacy-focused, offline-first AGI architecture.
+-  Creator of **AGNOS 1EX** – legal AI system with multi-agent RAG.
 -  Industrial designer & motion graphics artist (Cinema 4D, Redshift, Houdini).
 -  Passionate about AI, philosophy, quantum physics & advanced system design.
 
@@ -21,7 +21,7 @@
 ---
 
 ###  Featured Projects
- **Coming Soon** – Selected ALKEM1 and AGNOS LEX repositories will be public in the near future.
+ **Coming Soon** – Selected ALKEM1 and AGNOS 1EX repositories will be public in the near future.
 
 ---
 
