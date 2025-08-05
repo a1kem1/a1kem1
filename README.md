@@ -1,8 +1,3 @@
-<!-- Banner / Logo -->
-<p align="center">
-  <img src="https://github.com/alkem1/.github/blob/main/profile/alkem1_banner.png" alt="ALKEM1 Logo" width="600"/>
-</p>
-
 <!-- Introduction -->
 <h1 align="center"> Hi, I'm Aleksandar Stefanović</h1>
 <h3 align="center">Founder of ALKEM1 – Building Offline, Modular AGI Systems</h3>
