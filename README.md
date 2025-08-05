@@ -1,16 +1,44 @@
-## Hi there 👋
+<!-- Banner / Logo -->
+<p align="center">
+  <img src="https://github.com/alkem1/.github/blob/main/profile/alkem1_banner.png" alt="ALKEM1 Logo" width="600"/>
+</p>
 
-<!--
-**a1kem1/a1kem1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!-- Introduction -->
+<h1 align="center"> Hi, I'm Aleksandar Stefanović</h1>
+<h3 align="center">Founder of ALKEM1 – Building Offline, Modular AGI Systems</h3>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+###  About Me
+-  Building **ALKEM1 AGI** – privacy-focused, offline-first AGI architecture.
+- ⚖ Creator of **AGNOS LEX** – legal AI system with multi-agent RAG.
+-  Industrial designer & motion graphics artist (Cinema 4D, Redshift, Houdini).
+- 🛠Passionate about AI, philosophy, quantum physics & advanced system design.
+
+---
+
+### 🛠 Tech Stack
+<p>
+  <img src="https://skillicons.dev/icons?i=python,fastapi,docker,git,github,react,tailwind,js,nodejs,redis,elasticsearch" />
+  <img src="https://skillicons.dev/icons?i=cpp,linux,vscode,postman,figma,blender" />
+</p>
+
+---
+
+###  Featured Projects
+ **Coming Soon** – Selected ALKEM1 and AGNOS LEX repositories will be public in the near future.
+
+---
+
+###  Connect
+<p>
+   <b>Instagram:</b> <a href="https://www.instagram.com/alkem1ag1/">@alkem1ag1</a>  
+   <b>Behance:</b> <a href="https://www.behance.net/stefanovicaleksandar">Stefanović Aleksandar</a>  
+   <b>Email:</b> <a href="mailto:alek@alkem1.com">alek@alkem1.com</a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=alkem1&color=orange&style=flat-square" alt="Profile views"/>
+</p>
