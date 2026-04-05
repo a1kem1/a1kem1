@@ -1,5 +1,5 @@
 <h1 align="center">Aleksandar Stefanović</h1>
-<h3 align="center">Founder — ALKEM1 · Constitutional AI Systems</h3>
+<h3 align="center">Founder - ALKEM1 · Constitutional AI Systems</h3>
 
 <p align="center">
   <em>Building verified, offline-first AI operating systems that prove what they did.</em>
