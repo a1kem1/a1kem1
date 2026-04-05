@@ -40,47 +40,18 @@ An AI agent that doesn't just execute code — it *proves* it did it safely.
 ### Architecture
 
 ```mermaid
-graph TD
-    U[User / Operator] --> N[NEXUS Dashboard :3690]
-    N --> CC[Command Center]
-    N --> LP[Launchpad]
-    N --> BM[Benchmark Arena]
-    
-    CC --> AG1[AG1 Runtime]
-    AG1 --> PL[Planner — LLM]
-    AG1 --> EX[Executor — Policy Gate]
-    AG1 --> RV[Reviewer — Deterministic]
-    AG1 --> SY[Structured Synthesis]
-    
-    EX --> TL[Tool Layer]
-    TL --> S[search — ripgrep]
-    TL --> R[read_file — line numbers]
-    TL --> PF[patch_file — 5-level heuristic]
-    TL --> PL2[patch_lines — line-range]
-    
-    RV -->|ACCEPT| LD[Ledger — hash chain]
-    RV -->|RETRY| AG1
-    RV -->|FAIL| LD
-    
-    LD --> EP[Evidence Pack]
-    EP --> RC[Receipt — SHA-256]
-    
-    AG1 --> K[ALKEM1 OS Kernel]
-    K --> TR[Trust Layer]
-    K --> CT[Contract Fabric]
-    K --> IV[42 Invariants]
-    
-    K --> FL[Multi-Agent Fleet]
-    FL --> C1[CTRL — dispatch]
-    FL --> C2[CORE — execution]
-    FL --> C3[UI — dashboard]
-    FL --> C4[VERIFY — audit]
-
-    style AG1 fill:#F97316,color:#fff,stroke:#F97316
-    style K fill:#3B82F6,color:#fff,stroke:#3B82F6
-    style N fill:#A855F7,color:#fff,stroke:#A855F7
-    style RV fill:#22C55E,color:#fff,stroke:#22C55E
-    style LD fill:#10B981,color:#fff,stroke:#10B981
+graph LR
+    A[NEXUS Dashboard] --> B[AG1 Runtime]
+    B --> C[Planner]
+    B --> D[Executor]
+    B --> E[Reviewer]
+    E -->|ACCEPT| F[Ledger]
+    E -->|RETRY| B
+    F --> G[Evidence Pack]
+    B --> H[ALKEM1 Kernel]
+    H --> I[Trust + Contracts]
+    H --> J[42 Invariants]
+    H --> K[Agent Fleet]
 ```
 
 ---
