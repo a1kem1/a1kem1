@@ -39,19 +39,27 @@ An AI agent that doesn't just execute code — it *proves* it did it safely.
 
 ### Architecture
 
-```mermaid
-graph LR
-    A[NEXUS Dashboard] --> B[AG1 Runtime]
-    B --> C[Planner]
-    B --> D[Executor]
-    B --> E[Reviewer]
-    E -->|ACCEPT| F[Ledger]
-    E -->|RETRY| B
-    F --> G[Evidence Pack]
-    B --> H[ALKEM1 Kernel]
-    H --> I[Trust + Contracts]
-    H --> J[42 Invariants]
-    H --> K[Agent Fleet]
+```
+  NEXUS Dashboard (:3690)
+  │
+  ▼
+  AG1 Runtime ─────────────────────────────────┐
+  │  Planner (LLM) → Executor → Reviewer      │
+  │                               │            │
+  │                    ACCEPT ◄───┤            │
+  │                    RETRY  ───►│ (replan)   │
+  │                    FAIL   ◄───┘            │
+  │                                            │
+  │  Ledger (hash chain) → Evidence Pack       │
+  ├────────────────────────────────────────────┘
+  │
+  ▼
+  ALKEM1 OS Kernel
+  │  Trust · Contracts · 42 Invariants
+  │
+  ▼
+  Multi-Agent Fleet
+     CTRL · CORE · UI · VERIFY
 ```
 
 ---
